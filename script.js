@@ -13,10 +13,20 @@ console.log("Hola curso front end");
 //en el 2014 de conceptos de flecha.
 //las funciones de flecha => sirve para indicar que es una función.
 
+//tarea 4
 
-saludo()
+//saludo()
 
-const saludoNuevo = () => {
-
-
+const saludoNuevo = (numero) => {
+    //condicion de salida 
+    if(numero === 101)
+    console.log("Este es el numero" + numero);
+    saludoNuevo(numero+1)
 }
+const n = 1
+saludoNuevo(n)
+
+//Condicionales
+//Operadores e comparación (Type Coertion ==> COnversión de tipos)
+// == igualdad
+// === igualdad estricta (Comprueba el tipo de datos y valor)
